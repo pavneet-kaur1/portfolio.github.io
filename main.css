@@ -1,0 +1,275 @@
+body {
+  margin: auto;
+  background-color: dimgrey;
+}
+.content {
+  margin: auto;
+  width: 95%;
+  max-width: 1024px;
+  text-align: center;
+}
+
+.me {
+  padding-top: 80px;
+  padding-bottom: 100px;
+
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(167, 240, 253, 0.856);
+}
+
+#owner-name {
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-size: 42px;
+  font-family: "Tangerine";
+  background: linear-gradient(to right, #21a6f3, #ff6b08, #21a6f3, #eedd44);
+}
+
+#job {
+  font-weight: bold;
+  margin: 50px;
+  font-size: 35pt;
+  font-family: "Tangerine";
+}
+
+#hello {
+  font-size: 16pt;
+  font-style: oblique;
+  font-family: "Playball", cursive;
+  color: cornsilk;
+  font-weight: lighter;
+}
+
+#resumebutton {
+  background-color: rgb(255, 136, 93);
+  border: none;
+  color: black;
+  padding: 6px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 4px 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bolder;
+  height: 40px;
+  border: black;
+  border-style: solid;
+  border-width: thin;
+}
+
+#contactMe {
+  background-color: rgb(255, 136, 93);
+  border: none;
+  color: black;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 7px 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bolder;
+  height: 40px;
+  border: black;
+  border-style: solid;
+  border-width: thin;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.flex {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  padding-left: 30px;
+  background-color: rgb(218, 155, 174);
+  color: rgb(46, 68, 78);
+}
+
+.about {
+  max-width: 53%;
+  padding-right: 50px;
+  text-align: left;
+  font-size: 13.5pt;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  /* line-height: 30px; */
+  font-family: "Cairo", sans-serif;
+}
+#stmnt {
+  font-style: italic;
+}
+.edu {
+  color: blanchedalmond;
+}
+
+.grid {
+  display: grid;
+}
+
+#age,
+#email,
+#lang,
+#section,
+#ID,
+#PROFF {
+  display: flex;
+  justify-content: space-between;
+}
+
+.basic-info {
+  text-align: left;
+  width: 350px;
+  font-size: 20px;
+  padding-right: 15px;
+
+  padding: 20px;
+  border-left: groove;
+  border-color: rgb(53, 62, 77);
+  box-shadow: inset 0 12px 12px -12px rgb(53, 62, 77);
+}
+#photo {
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+  border: 2px solid rgb(53, 62, 77);
+}
+
+#about {
+  font-size: 30px;
+}
+#basic {
+  font-size: 30px;
+}
+
+.hr1 {
+  background-color: peachpuff;
+  border-top: 2px ridge peachpuff;
+  background: dimgrey;
+  margin: 0;
+}
+
+.hr2 {
+  height: 15px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(219, 142, 54, 0.76);
+  background: dimgrey;
+  margin: 0;
+}
+
+#ed {
+  text-align: left;
+}
+.education {
+  margin-top: 150px;
+
+  color: rgb(255, 240, 153);
+  margin-bottom: 150px;
+}
+
+.web222 {
+  display: flex;
+}
+.main {
+  background-color: pink;
+  color: black;
+  width: 25%;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.info {
+  background-color: rgb(255, 250, 187);
+  text-align: left;
+  padding-left: 20px;
+  color: black;
+  width: 70%;
+  font-family: "Cairo", sans-serif;
+  padding-bottom: 20px;
+}
+
+.small {
+  font-size: 15px;
+}
+
+.education h2 {
+  font-weight: bolder;
+}
+
+#contact-form {
+  margin-top: 200px;
+  box-shadow: grey;
+  background-color: bisque;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 40px 0px 40px;
+}
+
+label {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: rgb(53, 62, 77);
+}
+
+input,
+#sbutton {
+  border-radius: 4px;
+  padding: 0.5rem;
+  color: #000000;
+  background-color: #aaeefa;
+  box-shadow: rgb(152, 238, 250);
+  border-color: rgb(152, 238, 250);
+  border-width: thick;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.contact-me-form {
+  /* background-color: rgb(183, 244, 255); */
+  width: 600px;
+  margin: auto;
+  color: white;
+  /* box-shadow: white; */
+  box-sizing: border-box;
+  font-size: 20px;
+}
+textarea {
+  background-color: #aaeefa;
+  box-shadow: rgb(152, 238, 250);
+  border-color: rgb(152, 238, 250);
+  border-width: 7px;
+  border-radius: 4px;
+  border-style: ridge;
+  padding: 0.5rem;
+  color: black;
+  font-size: 19px;
+  width: 300px;
+  height: 200px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+#required {
+  color: red;
+  display: inline;
+}
+
+legend {
+  letter-spacing: 1.5px;
+  font-family: "Tangerine";
+  font-size: 40px;
+  color: rgb(53, 62, 77);
+}
