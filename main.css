@@ -119,10 +119,7 @@ a {
 
 #age,
 #email,
-#lang,
-#section,
-#ID,
-#PROFF {
+#phone {
   display: flex;
   justify-content: space-between;
 }
