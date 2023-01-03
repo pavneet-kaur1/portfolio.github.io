@@ -119,7 +119,9 @@ a {
 
 #age,
 #email,
-#phone {
+#phone,
+#lang
+{
   display: flex;
   justify-content: space-between;
 }
