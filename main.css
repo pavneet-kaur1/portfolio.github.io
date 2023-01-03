@@ -119,7 +119,13 @@ a {
 
 #age,
 #email,
+<<<<<<< HEAD
 #number {
+=======
+#phone,
+#lang
+{
+>>>>>>> d96eb6338fce7ad146225ea5e98c83873966784e
   display: flex;
   justify-content: space-between;
 }
