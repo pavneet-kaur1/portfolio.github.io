@@ -66,8 +66,14 @@
           </a>
         </button>
 
-        <button id="contactMe" type="button">
-          <a href="#contact-form">Contact me</a>
+        <button id="study" type="button">
+          <a href="#education">Education</a>
+        </button>
+        <button id="proj" type="button">
+          <a href="#projects">Projects</a>
+        </button>
+        <button id="skil" type="button">
+          <a href="#skills">Skills</a>
         </button>
       </div>
 <br>
@@ -114,7 +120,7 @@
               <p>EMAIL:</p>
              <a href="mailto:bainspavneet454@gmail.com"><p class="value">bainspavneet454@gmail.com</p></a>
             </div>
-            <div id="phone">
+            <div id="number">
                 <p>PHONE:</p>
                <a href="tel: +1 2895477963"><p class="value">+1 2895477963</p></a>
               </div>
@@ -122,7 +128,19 @@
               <p>LANGUAGE:</p>
               <p class="value">English</p>
             </div>
-
+<div id="lang">
+              <p>INSTAGRAM:</p>
+             <a href="https://instagram.com/k_pavu07?igshid=YmMyMTA2M2Y="><p class="value">k_pavu07</p></a>
+            </div>
+            <div id="lang">
+              <p>GITHUB:</p>
+             <a href="https://github.com/pavneet-kaur1"><p class="value">pavneet-kaur1</p></a>
+            </div>
+             <div id="lang">
+              <p>LINKEDIN:</p>
+             <a href="https://www.linkedin.com/in/pavneet-kaur-814930235/"><p class="value">Pavneet Kaur</p></a>
+            </div>
+            
           </div>
         </div>
       </div>
@@ -132,7 +150,7 @@
       <hr class="hr1" />
       <hr class="hr2" />
 
-      <div class="education">
+      <div class="education" id="education">
         <h1 id="ed">EDUCATION</h1>
         <div class="web222">
           <div class="main">
@@ -157,7 +175,7 @@
         <br />
         <div class="web222">
           <div class="main">
-            <p>2021-2023</p>
+            <p>2021-2024(expected)</p>
 
             <p><b>Computer Programming and Analysis</b></p>
           </div>
@@ -172,165 +190,110 @@
           </div>
         </div>
       </div>
+      <br />
 
+      <hr class="hr1" />
+      <hr class="hr2" />
+
+<div class="projects" id="projects">
+        <h1 id="pro">Projects</h1>
+        <div class="web222">
+          <div class="main">
+         <h2 id="artwork">Artwork application</h2>
+          </div> 
+           <div class="info">
+         <p>This is an application that has responsive user interface for searching and viewing data on the publicly available Metropolitan Museum of Art Collection API.  This application is made using  React, Next.js and React Bootstrap and deployed on vercel. Click on the link <a
+              href="https://web422-a6-main.vercel.app/"
+              ><b >Artwork Application </b></a
+            > to explore this project</p> 
+        </div>
+        </div>
+        <br />
+        <br />
+       <div class="web222">
+          <div class="main">
+         <h2>Other Projects</h2>
+         </div>
+         <div class="info">
+        <p>Go to my <a
+              href="https://github.com/pavneet-kaur1"
+              ><b >Github Account </b></a
+            > for exploring the code of all other projects that I did during the completion of my studies but are not deployed on any platform. </p></div>
+          </div>
+        </div>
+      </div>
+    
       <br />
       <br />
       <br />
 
       <hr class="hr1" />
       <hr class="hr2" />
-
+ 
       <br />
       <br />
+  
       
-      <div class="contact-me-form">
-        <form
-          id="contact-form"
-          method="POST"
-          action="mailto: bainspavneet454@gmail.com"
-          onsubmit="return validate();"
-        >
-          <fieldset>
-            <legend>Contact me:</legend>
-            <br />
-            Fields with <p id="required">*</p> are required. <br> <br><br>
-
-            <label for="name">NAME<p id="required">*</p>:</label><br />
-            <input
-              type="text"
-              name="name"
-              id="name"
-              required
-              placeholder="Enter your Name here"
-            />
-            <br />
-            <br />
-            <label for="mail">EMAIL<p id="required">*</p>:</label><br />
-            <input
-              type="email"
-              name="mail"
-              id="mail"
-              required
-              placeholder="Enter your email here"
-            />
-            <br />
-            <br />
-             <label for="number">CONTACT NUMBER<p id="required">*</p>:</label><br />
-            <input
-              type="tel"
-              name="phone"
-              id="phone"
-              pattern="^\d{10}$"
-              required
-              placeholder="Enter your Phone Number"
-            />
-            <br />
-            <br />
-            <label for="address">ADDRESS<p id="required">*</p>:</label><br />
-            <input
-              type="text"
-              name="address"
-              id="address"
-              required
-              placeholder="Enter your Address here"
-            />
-            <br />
-            <br />
-            <label for="cities">CITY<p id="required">*</p>:</label><br />
-            <input
-              type="text"
-              list="cities"
-              name="cities"
-              placeholder="Enter your city here "
-              required
-            />
-            <datalist id="cities">
-              <option value="Toronto"></option>
-              <option value="Vancouver"></option>
-              <option value="Ottawa"></option>
-              <option value="Mississauga"></option>
-              <option value="Brampton"></option>
-              <option value="Montreal"></option>
-              <option value="British Columbia"></option>
-            </datalist>
-
-            <br />
-            <br />
-
-            <label for="code">POSTAL CODE<p id="required">*</p>:</label><br />
-            <input
-              type="text"
-              name="code"
-              id="code"
-              pattern="^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$"
-              required
-              placeholder="POSTAL CODE"
-            />
-            <br />
-            <br /><br />
-            <label for="radio">REASON FOR CONTACTING<p id="required">*</p>:</label><br />
-            <br />
-
-            <div id="radio">
-              <input
-                type="radio"
-                name="reason"
-                id="question"
-                value="question"
-                onclick="javascript:yesnoCheck();"
-                checked
-              />Question
-              <input
-                type="radio"
-                name="reason"
-                id="comment"
-                value="comment"
-                onclick="javascript:yesnoCheck();"
-              />Comment
-              <input
-                type="radio"
-                name="reason"
-                id="hiring"
-                value="hiring"
-                onclick="javascript:yesnoCheck();"
-              />Hiring
-            </div>
-            <br />
-            <br />
-            <label for="hourly-rate" style="display: none" id="rate-label"
-              >HOURLY RATE in CAD</label
-            >
-            <input
-              type="number"
-              name="hourly-rate"
-              id="hourly-rate"
-              value="hourly-rate"
-              style="display: none"
-              placeholder="HOURLY RATE (in $)"
-            />
-
-            <div id="errors"></div>
-
-            <br />
-
-            <label for="msg">MESSAGE<p id="required">*</p>:</label> <br />
-            <textarea
-              id="msg"
-              required
-              placeholder="(Please enter your querry here)"
-            ></textarea>
-            <br /><br />
-
-            <button
-              type="submit"
-              name="submit"
-              id="sbutton">Submit</button>
-            </button>
-          </fieldset>
-        </form>
-        <br /><br />
-      </div>
     </div>
+   <div class="skills" id="skills">
+        <h1 id="ski">SKILLS</h1>
+        <div class="web222">
+          <div class="main">
+           
+
+          <h2>Web Development</h2>
+          </div> 
+           <div class="info">
+         <p>Till now I have learnt <a
+              href="https://www.javascript.com/"
+              ><b >Javascript </b></a
+            >, <a
+              href="https://www.w3schools.com/html/"
+              ><b >HTML5 </b></a
+            >,<a
+              href="w3schools.com/css/"
+              ><b >CSS </b></a
+            >, <a
+              href="https://www.w3schools.com/typescript/typescript_intro.php"
+              ><b >Typescript </b></a
+            >, <a
+              href="https://expressjs.com/"
+              ><b >Express </b></a
+            >, <a
+              href="https://reactjs.org/"
+              ><b >React </b></a
+            >(see the project<a href="artwork"> <b> ARTWORK</b></a> made using react framework ) and basic <a
+              href="https://www.w3schools.com/python/"
+              ><b >Python </b></a
+            >. Along with this I have done two courses in C and C++ too. This is all I have learnt till now, But I will keep learning and working on new projects. I will keep posting my new projects on my <a
+              href="https://github.com/pavneet-kaur1"
+              ><b >Github Account </b></a
+            > </p> 
+        </div>
+        </div>
+        <br />
+        <br />
+        <div class="web222">
+          <div class="main">
+           
+
+             <h2>Database</h2>
+          </div>
+          <div class="info">
+            
+
+            <p > I have done two courses in Database systems: Introduction to Database Systems and  Advance Database Services. From these two courses I  have learnt Oracle and MongoDB. </p>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <hr class="hr1" />
+      <hr class="hr2" />
+
+ 
+    
     <script src="main.js"></script>
   </body>
 </html>
+
