@@ -62,7 +62,9 @@ body {
   border-width: thin;
 }
 
-#contactMe {
+#study,
+#proj,
+#skil {
   background-color: rgb(255, 136, 93);
   border: none;
   color: black;
@@ -119,13 +121,8 @@ a {
 
 #age,
 #email,
-<<<<<<< HEAD
+#lang,
 #number {
-=======
-#phone,
-#lang
-{
->>>>>>> d96eb6338fce7ad146225ea5e98c83873966784e
   display: flex;
   justify-content: space-between;
 }
@@ -170,10 +167,14 @@ a {
   margin: 0;
 }
 
-#ed {
+#ed,
+#pro,
+#ski {
   text-align: left;
 }
-.education {
+.education,
+.projects,
+.skills {
   margin-top: 150px;
 
   color: rgb(255, 240, 153);
@@ -210,12 +211,6 @@ a {
   font-weight: bolder;
 }
 
-#contact-form {
-  margin-top: 200px;
-  box-shadow: grey;
-  background-color: bisque;
-}
-
 .inputs {
   display: flex;
   flex-direction: column;
@@ -241,15 +236,6 @@ input,
   font-size: 15px;
 }
 
-.contact-me-form {
-  /* background-color: rgb(183, 244, 255); */
-  width: 600px;
-  margin: auto;
-  color: white;
-  /* box-shadow: white; */
-  box-sizing: border-box;
-  font-size: 20px;
-}
 textarea {
   background-color: #aaeefa;
   box-shadow: rgb(152, 238, 250);
