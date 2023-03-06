@@ -180,7 +180,9 @@ a {
   color: rgb(255, 240, 153);
   margin-bottom: 150px;
 }
-
+.skills {
+  margin: 150px;
+}
 .web222 {
   display: flex;
 }
