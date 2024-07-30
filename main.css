@@ -1,63 +1,266 @@
-/* styles.css */
-
-/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+  margin: auto;
+  background-color: dimgrey;
+}
+.content {
+  margin: auto;
+  width: 95%;
+  max-width: 1024px;
+  text-align: center;
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+.me {
+  padding-top: 80px;
+  padding-bottom: 100px;
+
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(167, 240, 253, 0.856);
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+#owner-name {
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-size: 42px;
+  font-family: "Tangerine";
+  background: linear-gradient(to right, #21a6f3, #ff6b08, #21a6f3, #eedd44);
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+#job {
+  font-weight: bold;
+  margin: 50px;
+  font-size: 35pt;
+  font-family: "Tangerine";
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+#hello {
+  font-size: 16pt;
+  font-style: oblique;
+  font-family: "Playball", cursive;
+  color: cornsilk;
+  font-weight: lighter;
 }
 
-h1 {
-    margin: 0;
+#resumebutton {
+  background-color: rgb(255, 136, 93);
+  border: none;
+  color: black;
+  padding: 6px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 4px 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bolder;
+  height: 40px;
+  border: black;
+  border-style: solid;
+  border-width: thin;
 }
 
-/* Sections */
-section {
-    padding: 2rem;
-    margin: 0 auto;
-    max-width: 800px;
+#study,
+#proj,
+#skil {
+  background-color: rgb(255, 136, 93);
+  border: none;
+  color: black;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 7px 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bolder;
+  height: 40px;
+  border: black;
+  border-style: solid;
+  border-width: thin;
 }
 
-.project {
-    margin-bottom: 2rem;
+a {
+  color: black;
+  text-decoration: none;
 }
 
-.project img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+.flex {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  padding-left: 30px;
+  background-color: rgb(218, 155, 174);
+  color: rgb(46, 68, 78);
 }
 
-/* Footer */
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.about {
+  max-width: 53%;
+  padding-right: 50px;
+  text-align: left;
+  font-size: 13.5pt;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  /* line-height: 30px; */
+  font-family: "Cairo", sans-serif;
+}
+#stmnt {
+  font-style: italic;
+}
+.edu {
+  color: blanchedalmond;
+}
+
+.grid {
+  display: grid;
+}
+
+#age,
+#email,
+#lang,
+#number {
+  display: flex;
+  justify-content: space-between;
+}
+
+.basic-info {
+  text-align: left;
+  width: 350px;
+  font-size: 20px;
+  padding-right: 15px;
+
+  padding: 20px;
+  border-left: groove;
+  border-color: rgb(53, 62, 77);
+  box-shadow: inset 0 12px 12px -12px rgb(53, 62, 77);
+}
+#photo {
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+  border: 2px solid rgb(53, 62, 77);
+}
+
+#about {
+  font-size: 30px;
+}
+#basic {
+  font-size: 30px;
+}
+
+.hr1 {
+  background-color: peachpuff;
+  border-top: 2px ridge peachpuff;
+  background: dimgrey;
+  margin: 0;
+}
+
+.hr2 {
+  height: 15px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(219, 142, 54, 0.76);
+  background: dimgrey;
+  margin: 0;
+}
+
+#ed,
+#pro,
+#ski {
+  text-align: left;
+}
+.education,
+.projects,
+.skills {
+  margin-top: 150px;
+
+  color: rgb(255, 240, 153);
+  margin-bottom: 150px;
+}
+.skills {
+  margin: 150px;
+}
+.web222 {
+  display: flex;
+}
+.main {
+  background-color: pink;
+  color: black;
+  width: 25%;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.info {
+  background-color: rgb(255, 250, 187);
+  text-align: left;
+  padding-left: 20px;
+  color: black;
+  width: 70%;
+  font-family: "Cairo", sans-serif;
+  padding-bottom: 20px;
+}
+
+.small {
+  font-size: 15px;
+}
+
+.education h2 {
+  font-weight: bolder;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 40px 0px 40px;
+}
+
+label {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: rgb(53, 62, 77);
+}
+
+input,
+#sbutton {
+  border-radius: 4px;
+  padding: 0.5rem;
+  color: #000000;
+  background-color: #aaeefa;
+  box-shadow: rgb(152, 238, 250);
+  border-color: rgb(152, 238, 250);
+  border-width: thick;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+textarea {
+  background-color: #aaeefa;
+  box-shadow: rgb(152, 238, 250);
+  border-color: rgb(152, 238, 250);
+  border-width: 7px;
+  border-radius: 4px;
+  border-style: ridge;
+  padding: 0.5rem;
+  color: black;
+  font-size: 19px;
+  width: 300px;
+  height: 200px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+#required {
+  color: red;
+  display: inline;
+}
+
+legend {
+  letter-spacing: 1.5px;
+  font-family: "Tangerine";
+  font-size: 40px;
+  color: rgb(53, 62, 77);
 }
