@@ -1,57 +1,311 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <h1>Welcome to My Portfolio</h1>
-    </header>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Pavneet's Portfolio</title>
+    <link rel="stylesheet" href="main.css" type="text/css" />
 
-    <section id="home">
-        <h2>Home</h2>
-        <p>Introduction and welcome message.</p>
-    </section>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Brief bio and professional background.</p>
-    </section>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=WindSong:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects-container">
-            <div class="project">
-                <img src="images/project1.jpg" alt="Project 1">
-                <h3>Project 1</h3>
-                <p>Description of project 1.</p>
-            </div>
-            <div class="project">
-                <img src="images/project2.jpg" alt="Project 2">
-                <h3>Project 2</h3>
-                <p>Description of project 2.</p>
-            </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playball&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arapey&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="me">
+        <img id="photo" src="my_photo.jpeg " alt="My picture" />
+
+        <h1 id="owner-name">Pavneet Kaur</h1>
+        <p id="job">Web Developer</p>
+        <button id="resumebutton" type="button">
+          <a href="base_resume.docx" download>
+            <i class="fa fa-download"></i>Resume
+          </a>
+        </button>
+
+        <button id="study" type="button">
+          <a href="#education">Education</a>
+        </button>
+        <button id="proj" type="button">
+          <a href="#projects">Projects</a>
+        </button>
+        <button id="skil" type="button">
+          <a href="#skills">Skills</a>
+        </button>
+      </div>
+<br>
+      <hr class="hr1" />
+      <hr class="hr2" />
+
+      <div class="flex">
+        <div class="about">
+          <h3 id="about">About me</h3>
+          <p id="about-text">
+            Hello, friends Myself Pavneet Kaur from India. I completed my Senior
+            Secondary Education from
+            <a
+              href="https://www.facebook.com/KD-International-School-1422346881399548/"
+              ><b class="edu">KD International School </b></a
+            >
+            India, and then I moved to Canada to persue my further studies.
+            Here I finished
+            <a href="https://www.senecacollege.ca/programs/fulltime/CPA.html"
+              ><b class="edu">Computer Programming</b></a
+            >
+            diploma program at the
+            <a href="https://www.senecacollege.ca/home.html"
+              ><b class="edu"
+                >Seneca College of Applied Arts and Technology</b
+              ></a
+            >
+            . I
+            want to become a Web Developer and it will not be just a job for me,
+            it will be my passion. Please check my projects and my github page for having information about the projects that I have done till now along with those that I will be doing in my future.
+            You can contact me using my phone number, email or filling the contact me form given bellow. Follow me on instagram, github and linkelden too, using given links.
+
+          </p>
         </div>
-    </section>
+        <div class="basic-info">
+          <h3 id="basic">Basic information</h3>
+          <div class="grid">
+            <div id="age">
+              <p>AGE:</p>
+              <p class="value" id="abc">20</p>
+            </div>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Contact form or contact details.</p>
-    </section>
+            <div id="email">
+              <p>EMAIL:</p>
+             <a href="mailto:bainspavneet454@gmail.com"><p class="value">bainspavneet454@gmail.com</p></a>
+            </div>
+            <div id="number">
+                <p>PHONE:</p>
+               <a href="tel: +1 2895477963"><p class="value">+1 2895477963</p></a>
+              </div>
+            <div id="lang">
+              <p>LANGUAGE:</p>
+              <p class="value">English</p>
+            </div>
+<div id="lang">
+              <p>INSTAGRAM:</p>
+             <a href="https://instagram.com/k_pavu07?igshid=YmMyMTA2M2Y="><p class="value">k_pavu07</p></a>
+            </div>
+            <div id="lang">
+              <p>GITHUB:</p>
+             <a href="https://github.com/pavneet-kaur1"><p class="value">pavneet-kaur1</p></a>
+            </div>
+             <div id="lang">
+              <p>LINKEDIN:</p>
+             <a href="https://www.linkedin.com/in/pavneet-kaur-814930235/"><p class="value">Pavneet Kaur</p></a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
 
-    <footer>
-        <p>&copy; 2024 My Portfolio</p>
-    </footer>
-</body>
+      <br />
+
+      <hr class="hr1" />
+      <hr class="hr2" />
+
+      <div class="education" id="education">
+        <h1 id="ed">EDUCATION</h1>
+        <div class="web222">
+          <div class="main">
+            <p>(2018 - 2020)</p>
+
+            <p><b>Senior Secondary Education</b></p>
+          </div>
+          <div class="info">
+            <h2>Senior Secondary Education</h2>
+            <a
+              href="https://www.facebook.com/KD-International-School-1422346881399548/"
+              ><h5>KD INTERNATIONAL SCHOOL, INDIA</h5></a
+            >
+
+            <p class="small">
+              Under the supervision of Principal Ms Sarita Sood
+            </p>
+            <p class="small">Awarded with no scholarship</p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="web222">
+          <div class="main">
+            <p>2021-2022</p>
+
+            <p><b>Computer Programming</b></p>
+          </div>
+          <div class="info">
+            <h2>Computer Programming and Analysis</h2>
+            <a href="https://www.senecacollege.ca/home.html"
+              ><h5>SENECA COLLEGE</h5></a
+              >
+
+            <p class="small">Under the supervision of Advisor </p>
+            <p class="small">Awarded with no scholarship</p>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <hr class="hr1" />
+      <hr class="hr2" />
+
+<div class="projects" id="projects">
+        <h1 id="pro">Projects</h1>
+        <div class="web222">
+          <div class="main">
+         <h2 id="artwork">Artwork application</h2>
+          </div> 
+           <div class="info">
+         <p>This is an application that has responsive user interface for searching and viewing data on the publicly available Metropolitan Museum of Art Collection API.  This application is made using  React, Next.js and React Bootstrap and deployed on vercel. Click on the link <a
+              href="https://web422-a6-main.vercel.app/"
+              ><b >Artwork Application </b></a
+            > to explore this project</p> 
+        </div>
+        </div>
+        <br />
+        <br />
+        <div class="web222">
+          <div class="main">
+         <h2 id="weather">Weather application</h2>
+          </div> 
+           <div class="info">
+         <p>This is a simple weather application, which is made using <a href="https://openweathermap.org/"> <b>OpenWeatherMap API</b> .</a> It accuratly tells the weatherforecast for upcoming 7 days. This application is absolutly responsive and is made responsive manually using CSS. This is an HTML5, CSS and Javascript based web application depolyed on vercel. Click on the link <a
+              href=" https://weather-app-five-drab.vercel.app/"
+              ><b >Weather Application </b></a
+            > to explore this project</p> 
+        </div>
+        </div>
+        <br />
+        <br />
+       <div class="web222">
+          <div class="main">
+         <h2>Other Projects</h2>
+         </div>
+         <div class="info">
+        <p>Go to my <a
+              href="https://github.com/pavneet-kaur1"
+              ><b >Github Account </b></a
+            > for exploring the code of all other projects that I did during the completion of my studies but are not deployed on any platform. </p></div>
+          </div>
+        </div>
+      </div>
+    
+      <br />
+      <br />
+      <br />
+
+      <hr class="hr1" />
+      <hr class="hr2" />
+ 
+      <br />
+      <br />
+  
+      
+    </div>
+   <div class="skills" id="skills">
+        <h1 id="ski">SKILLS</h1>
+        <div class="web222">
+          <div class="main">
+           
+
+          <h2>Web Development</h2>
+          </div> 
+           <div class="info">
+         <p>Till now I have learnt <a
+              href="https://www.javascript.com/"
+              ><b >Javascript </b></a
+            >, <a
+              href="https://www.w3schools.com/html/"
+              ><b >HTML5 </b></a
+            >,<a
+              href="w3schools.com/css/"
+              ><b >CSS </b></a
+            >, <a
+              href="https://www.w3schools.com/typescript/typescript_intro.php"
+              ><b >Typescript </b></a
+            >, <a
+              href="https://expressjs.com/"
+              ><b >Express </b></a
+            >, <a
+              href="https://reactjs.org/"
+              ><b >React </b></a
+            >(see the project<a href="https://web422-a6-main.vercel.app/"> <b> ARTWORK</b></a> made using react framework ) and basic <a
+              href="https://www.w3schools.com/python/"
+              ><b >Python </b></a
+            >. Along with this I have done two courses in C and C++ too. This is all I have learnt till now, But I will keep learning and working on new projects. I will keep posting my new projects on my <a
+              href="https://github.com/pavneet-kaur1"
+              ><b >Github Account </b></a
+            > </p> 
+        </div>
+        </div>
+        <br />
+        <br />
+        <div class="web222">
+          <div class="main">
+           
+
+             <h2>Database</h2>
+          </div>
+          <div class="info">
+            
+
+            <p > I have done two courses in Database systems: Introduction to Database Systems and  Advance Database Services. From these two courses I  have learnt Oracle and MongoDB. </p>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <hr class="hr1" />
+      <hr class="hr2" />
+
+ 
+    
+    <script src="main.js"></script>
+  </body>
 </html>
